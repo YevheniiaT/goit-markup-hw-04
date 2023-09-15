@@ -226,6 +226,10 @@ margin-bottom: 48px;
     width: 264px;
 }
 /* Our team section */
+
+.frame-icon{
+    fill: #4D5AE5;
+}
 .our-team-list {
     display: flex;
     gap: 24px;
@@ -236,6 +240,7 @@ margin-bottom: 48px;
     border-radius: 0px 0px 4px 4px;
     gap: 32px;
 }
+
 .section-our-team {
 background-color: var(--bcg-color-light);  
 padding: 120px 0;
