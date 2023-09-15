@@ -201,6 +201,14 @@ margin-bottom: 48px;
 .section-strategy {
     padding: 120px 0;
 }
+.strategy-icone {
+    border-radius: 4px;
+    border: 1px solid #8E8F99;
+    background: var(--bcg-color-light);
+    flex-shrink: 0;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+}
 
 .strategy-title {
     color: var(--color-brand);
