@@ -420,7 +420,7 @@ font-family: Roboto;
 /* Footer */
 .footer-icon-list {
     display: flex;
-    gap: 24px;
+    gap: 16px;
 }
 
 .footer-icon-item {
@@ -442,12 +442,16 @@ font-family: Roboto;
 .footer-icone-link:hover {
     background-color: #31D0AA;
 }
-
+.footer-icone-link:focus {
+    background-color: #31D0AA;
+}
 .footer-icon {
-    fill: #FFF;
+    fill: #f4f4fd;
 }
 .footer-flex-container {
     display: flex;
+    align-items: baseline;
+    
 }
 .footer-social-media-text {
        color: var(--color-primery-light);
@@ -459,6 +463,7 @@ font-family: Roboto;
 }
 .footer-logo-container {
     margin-right: 120px;
+    margin-left: 156px;
 }
 .footer {
     background-color:var(--color-brand);
