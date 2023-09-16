@@ -111,7 +111,7 @@ address {
 .nav-link:active {
     color: var(--color-hover-active);
 }
-.nav-link:active::after {
+.nav-link::after {
     content: '';
     position: absolute;
     display: block;
