@@ -96,18 +96,17 @@ address {
    color: var(--color-brand);
 }
 .nav-link {
-    color: var(--color-brand);
+    color: #404bbf;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
     display: inline-block;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.list-nav-link {
     position: relative;
-   
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .nav-link:active {
     color: var(--color-hover-active);
 }
@@ -120,7 +119,7 @@ address {
     flex-shrink: 0;
     border-radius: 2px;
     background-color: var(--color-hover-active);
-    bottom: 0;
+    bottom: -1px;
 }
 .nav-link:focus {
 color: #404bbf;
@@ -142,7 +141,7 @@ color: #404bbf;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 .address-info-mail:hover {
 color: #404bbf;
