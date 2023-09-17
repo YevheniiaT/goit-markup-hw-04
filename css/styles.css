@@ -96,7 +96,7 @@ address {
    color: var(--color-brand);
 }
 .nav-link {
-    color: #404bbf;
+    color: var(--color-brand);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -110,7 +110,18 @@ address {
 .nav-link:active {
     color: var(--color-hover-active);
 }
-.nav-link::after {
+.nav-link-st {
+color: #404bbf;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: inline-block;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-link-st::after {
     content: '';
     position: absolute;
     display: block;
@@ -487,5 +498,10 @@ flex-basis: calc((100% - 48px) / 3);
     color: var(--bcg-color-light);
 }
 
+.footer-flex-container {
+    max-width: 1158px;
+        margin: 0 auto;
+        padding: 0 15px;
+}
 
 
